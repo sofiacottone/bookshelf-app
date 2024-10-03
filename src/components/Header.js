@@ -1,9 +1,10 @@
+import Stats from "./Stats";
 
-export default function Header() {
+export default function Header({ books }) {
     return <>
-        <header className="px-6 md:px-0 py-6">
+        <header className="py-6">
             <h1 className="text-3xl text-white font-semibold">Bookshelf 📚</h1>
-            <p className="text-orange-600">Stats</p>
+            <Stats books={books} />
         </header>
     </>
 }
