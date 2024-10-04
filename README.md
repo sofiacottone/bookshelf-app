@@ -3,7 +3,7 @@
 Bookshelf is a simple application built with **React** that allows you to manage your personal library. You can add new books, edit and delete them, filter your collection, and mark books ad read. The app also supports **localStorage** to persist your library even after closing the app.
 
 ---
-➡️ Try it [here](https://mybookshelfy.netlify.app/){:target="_blank"} ⬅️
+➡️ Try it [here](https://mybookshelfy.netlify.app/) ⬅️
 
 ---
 
