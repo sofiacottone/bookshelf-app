@@ -5,45 +5,6 @@ import BookFormModal from "./components/BookFormModal";
 import Footer from "./components/Footer";
 
 
-const initialBooks = [
-  {
-    id: 1,
-    title: 'Guida Galattica per gli autostoppisti',
-    author: 'Douglas Adams',
-    status: false
-  },
-  {
-    id: 2,
-    title: 'Ristorante al termine dell\'Universo',
-    author: 'Douglas Adams',
-    status: false
-  },
-  {
-    id: 3,
-    title: 'La vita, l\'universo e tutto quanto',
-    author: 'Douglas Adams',
-    status: false
-  },
-  {
-    id: 4,
-    title: 'Addio, e grazie per tutto il pesce',
-    author: 'Douglas Adams',
-    status: false
-  },
-  {
-    id: 5,
-    title: 'Praticamente innocuo',
-    author: 'Douglas Adams',
-    status: false
-  },
-  {
-    id: 6,
-    title: 'E un\'altra cosa...',
-    author: 'Douglas Adams',
-    status: false
-  },
-]
-
 export default function App() {
   const [books, setBooks] = useState(JSON.parse(localStorage.getItem("books")) || []);
   const [showModal, setShowModal] = useState(false);
