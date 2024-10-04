@@ -41,7 +41,7 @@ export default function BookList({ books, onRemoveBook, onToggleBook, onEditBook
                     />
                 ))}
             </ul>)
-            : <p className="mx-6 md:ms-0 my-6 text-orange-600 text-center font-semibold text-lg">Start adding books to you Bookshelf &#58;&#41;</p>
+            : <p className="mx-6 md:ms-0 my-6 text-orange-600 text-center font-semibold text-lg">Start adding books to your Bookshelf &#58;&#41;</p>
         }
 
 
